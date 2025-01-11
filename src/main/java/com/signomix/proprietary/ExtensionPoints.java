@@ -6,7 +6,7 @@ public class ExtensionPoints {
      * Returns the number of starting points (founded by the service owner) for the given account type.
      * @return
      */
-    public int getStartingPoints() {
+    public long getStartingPoints() {
         return 0;
     }   
 
@@ -54,7 +54,7 @@ public class ExtensionPoints {
      * Returns the number of points required to send an SMS.
      * @return
      */
-    public int getPointsForSMS() {
+    public long getPointsForSMS() {
         return 2;
     }
 }
